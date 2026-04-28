@@ -9,94 +9,75 @@
             background-color: #f0f0f0;
             padding: 40px;
         }
-
         .container {
             background: white;
             padding: 30px;
             margin-bottom: 50px;
             border: 1px solid #ddd;
         }
-
-        /* Завдання 1: Fruits */
         .fruit-container {
             background-color: #fdf5e6;
             padding: 30px;
             width: 250px;
         }
-
         .fruit-container ul {
             list-style: none;
             padding: 0;
             margin: 0;
         }
-
         .fruit-container li {
             margin: 15px 0;
             padding: 10px;
         }
-
         .fruit-container li.highlight {
             background-color: #ffe4b5;
         }
-
         .fruit-container li span {
             background-color: #cd853f;
             color: white;
             padding: 5px 15px;
             display: inline-block;
         }
-
-        /* Завдання 2: Todo */
         .todo-list {
             list-style: none;
             padding: 0;
             width: 350px;
         }
-
         .todo-list li {
             padding: 12px 15px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-
         .todo-list li:nth-child(odd) {
             background-color: #e0f2fe;
         }
-
         .todo-list li:nth-child(even) {
             background-color: #bae6fd;
         }
-
         .todo-list li.completed {
             background-color: #e5e7eb;
             text-decoration: line-through;
             color: #6b7280;
         }
-
         .todo-list li::before {
             content: "☐ ";
             margin-right: 10px;
         }
-
         .todo-list li.completed::before {
             content: "☑ ";
         }
-
         .delete-btn {
             color: #ef4444;
             font-weight: bold;
             cursor: pointer;
         }
-
-        /* Завдання 3: Tag Definition */
         .tag-box {
             border-left: 10px solid #3b82f6;
             background-color: #eff6ff;
             padding: 25px;
             max-width: 500px;
         }
-
         .tag-box dt {
             font-size: 24px;
             font-weight: 800;
@@ -104,22 +85,18 @@
             text-transform: uppercase;
             margin-bottom: 10px;
         }
-
         .tag-box dd {
             margin: 0 0 20px 0;
             line-height: 1.4;
         }
-
         .tag-box ol {
             margin-top: 15px;
             padding-left: 20px;
         }
-
         .tag-box li {
             margin-bottom: 8px;
             font-weight: 600;
         }
-
         code {
             background: #dbeafe;
             padding: 2px 5px;
@@ -128,7 +105,6 @@
     </style>
 </head>
 <body>
-
     <div class="container">
         <div class="fruit-container">
             <ul>
@@ -139,7 +115,6 @@
             </ul>
         </div>
     </div>
-
     <div class="container">
         <ul class="todo-list">
             <li>Buy milk <span class="delete-btn">&#10006;</span></li>
@@ -149,7 +124,6 @@
             <li>Homework <span class="delete-btn">&#10006;</span></li>
         </ul>
     </div>
-
     <div class="container">
         <div class="tag-box">
             <dl>

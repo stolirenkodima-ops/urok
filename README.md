@@ -21,21 +21,5 @@
         Who is already sick and pale with grief.</p>
     </section>
 
-    <hr style="margin: 50px 0;">
-
-    <section>
-        <h1>Card game</h1>
-        <p>Суми мастей у грі:</p>
-        <ul>
-            <li>Чирви: <span style="color: red;">&hearts;</span></li>
-            <li>Бубни: <span style="color: red;">&diams;</span></li>
-            <li>Піки: &spades;</li>
-            <li>Трефи: &clubs;</li>
-        </ul>
-        <p>Комбінація: <b>A&spades; K&spades; Q&spades; J&spades; 10&spades;</b></p>
-    </section>
-
-    <hr style="margin: 50px 0;">
-
 </body>
 </html>

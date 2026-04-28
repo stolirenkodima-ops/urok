@@ -5,7 +5,6 @@
     <title>Web Technologies Tasks</title>
 </head>
 <body>
-
     <section>
         <h1>William Shakespeare</h1>
         <h2>Romeo and Juliet</h2>
@@ -20,6 +19,30 @@
         Arise, fair sun, and kill the envious moon,<br>
         Who is already sick and pale with grief.</p>
     </section>
-
+    <hr style="margin: 50px 0;">
+    <section>
+        <h1>Card game</h1>
+        <p>Суми мастей у грі:</p>
+        <ul>
+            <li>Чирви: <span style="color: red;">&hearts;</span></li>
+            <li>Бубни: <span style="color: red;">&diams;</span></li>
+            <li>Піки: &spades;</li>
+            <li>Трефи: &clubs;</li>
+        </ul>
+        <p>Комбінація: <b>A&spades; K&spades; Q&spades; J&spades; 10&spades;</b></p>
+    </section>
+    <hr style="margin: 50px 0;">
+    <section>
+        <h1>HTML Tutorial</h1>
+        <p><dfn>HTML</dfn> — це стандартна мова розмітки документів.</p>
+        <p>Ми використовуємо <abbr title="HyperText Markup Language">HTML</abbr> для створення структури сторінок.</p>
+        <p>Приклад тегу <code>&lt;blockquote&gt;</code> для цитат:</p>
+        <pre>
+&lt;blockquote&gt;
+   Stay hungry, stay foolish.
+&lt;/blockquote&gt;
+        </pre>
+        <p>Використовуйте <i>курсив</i> для акцентів та <b>жирний шрифт</b> для важливості.</p>
+    </section>
 </body>
 </html>

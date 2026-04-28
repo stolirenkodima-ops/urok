@@ -37,20 +37,5 @@
 
     <hr style="margin: 50px 0;">
 
-    <section>
-        <h1>HTML Tutorial</h1>
-        <p><dfn>HTML</dfn> — це стандартна мова розмітки документів.</p>
-        <p>Ми використовуємо <abbr title="HyperText Markup Language">HTML</abbr> для створення структури сторінок.</p>
-        
-        <p>Приклад тегу <code>&lt;blockquote&gt;</code> для цитат:</p>
-        <pre>
-&lt;blockquote&gt;
-   Stay hungry, stay foolish.
-&lt;/blockquote&gt;
-        </pre>
-        
-        <p>Використовуйте <i>курсив</i> для акцентів та <b>жирний шрифт</b> для важливості.</p>
-    </section>
-
 </body>
 </html>
